@@ -22,6 +22,7 @@ pub mod script;
 mod admin;
 #[cfg(feature = "dashboard")]
 mod dashboard;
+
 #[cfg(feature = "mem-prof")]
 pub mod mem_prof;
 

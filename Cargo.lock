@@ -6738,22 +6738,21 @@ dependencies = [
 [[package]]
 name = "raft-engine"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "67b66e735395b7ff12f3ebbb4794006aecb365c4c9a82141279b58b227ac3a8b"
+source = "git+https://github.com/j2inn/raft-engine.git?branch=windows-support#b082fc3c947d3a5508263a77011c81a12366811b"
 dependencies = [
  "byteorder",
  "crc32fast",
  "crossbeam",
  "fail",
  "fs2",
- "hashbrown 0.12.3",
+ "hashbrown 0.13.2",
  "hex",
  "if_chain",
  "lazy_static",
  "libc",
  "log",
  "lz4-sys",
- "nix 0.25.1",
+ "nix 0.26.2",
  "num-derive",
  "num-traits",
  "parking_lot",
